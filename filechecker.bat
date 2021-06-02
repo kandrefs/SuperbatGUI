@@ -34,7 +34,7 @@ Echo Press any key to check for missing files...
 pause >nul
 cls
 
-:: Chech which folders has missing and completed files.
+:: Check which folders has missing and completed files.
 Echo Checking for missing files: (*.mkv, *.mp4, *.qctools.xml, *.mediainfo.xml, *.mediatrace.xml, *.md5)
 echo.
 echo.
