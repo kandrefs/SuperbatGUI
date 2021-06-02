@@ -1,6 +1,7 @@
 # SuperbatGUI
 Batch files and GUI interface for specific video archival purposes.
-Made for Windows 10 Pro - Might work on other windows based system, but is not extensively tested.
+
+Made for Windows 10 Pro - Might work on other windows based systems, but is not extensively tested.
 
 Has dependencies outside .bat files and .au3 (needs to be compiled as .exe)
   - MediaConch (cli)
