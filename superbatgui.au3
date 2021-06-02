@@ -24,13 +24,13 @@ SplashOff()
 
 
 
-#Region ### START Koda GUI section ### Form=c:\users\kjetil andre\desktop\nbgui2.kxf
-$Form1_1 = GUICreate("SuperbatGUI - v0.1", 1264, 724, -1, -1, $GUI_SS_DEFAULT_GUI) ;$WS_EX_TOPMOST; hvis det skal være onTOP
+#Region ### START GUI ###
+$Form1_1 = GUICreate("SuperbatGUI - v0.1", 1264, 724, -1, -1, $GUI_SS_DEFAULT_GUI) ;$WS_EX_TOPMOST; hvis det skal vÃ¦re onTOP
 $MenuItem1 = GUICtrlCreateMenu("&Fil")
-$MenuItem4 = GUICtrlCreateMenuItem("Åpne P#-mapper", $MenuItem1)
+$MenuItem4 = GUICtrlCreateMenuItem("Ã…pne P#-mapper", $MenuItem1)
 $MenuItem5 = GUICtrlCreateMenuItem("Avlsutt", $MenuItem1)
 $MenuItem2 = GUICtrlCreateMenu("&video.done()")
-$MenuItem6 = GUICtrlCreateMenuItem("Kjør video.done()", $MenuItem2)
+$MenuItem6 = GUICtrlCreateMenuItem("KjÃ¸r video.done()", $MenuItem2)
 $MenuItem3 = GUICtrlCreateMenu("&Hjelp")
 $MenuItem7 = GUICtrlCreateMenuItem("lol", $MenuItem3)
 $MenuItem8 = GUICtrlCreateMenuItem("Readme...", $MenuItem3)
@@ -47,7 +47,7 @@ GUICtrlSetCursor (-1, 0)
 $Button4 = GUICtrlCreateButton("P4", 223, 510, 165, 60)
 GUICtrlSetFont(-1, 10, 400, 0, "Segoe UI")
 GUICtrlSetCursor (-1, 0)
-$Button5 = GUICtrlCreateButton("Kjør alle", 31, 590, 358, 82)
+$Button5 = GUICtrlCreateButton("KjÃ¸r alle", 31, 590, 358, 82)
 GUICtrlSetFont(-1, 10, 400, 0, "Segoe UI")
 GUICtrlSetCursor (-1, 0)
 $Pic1 = GUICtrlCreatePic("library\data\gui\guibg2.jpg", 425, -9, 855, 720, $WS_CLIPSIBLINGS)
@@ -80,10 +80,10 @@ GUICtrlSetFont(-1, 10, 400, 0, "Segoe UI")
 $Radio1 = GUICtrlCreateRadio("Lav", 48, 70, 49, 17)
 $Radio2 = GUICtrlCreateRadio("Normal", 175, 70, 73, 17)
 GUICtrlSetState(-1, $GUI_CHECKED)
-$Radio3 = GUICtrlCreateRadio("Høy", 302, 70, 73, 17)
+$Radio3 = GUICtrlCreateRadio("HÃ¸y", 302, 70, 73, 17)
 GUICtrlCreateGroup("", -99, -99, 1, 1)
 GUISetState(@SW_SHOW)
-#EndRegion ### END Koda GUI section ###
+#EndRegion ### END GUI ###
 
 
 
