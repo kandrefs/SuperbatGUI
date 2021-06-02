@@ -8,6 +8,7 @@ Has dependencies outside .bat files and .au3 (needs to be compiled as .exe)
   - ffmpeg (cli)
   - ffprobe (cli)
   - ffplay (cli)
+
 Instructions on how to build will be posted at a later time
 
 //kandrefs
